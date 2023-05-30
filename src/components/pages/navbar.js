@@ -7,7 +7,7 @@ function NavBar({ currentPage, setCurrentPage }) {
         <div className="nav-item no-hover">
           <h6 className="title">David Vo &#128122;</h6>
         </div>
-        <div className="nav-item nav-btn" id="header-btn" onClick={console.log('testing')}>
+        <div className="nav-item nav-btn" id="header-btn">
           <span></span>
           <span></span>
           <span></span>

@@ -65,7 +65,7 @@ export default class StarrySky extends React.Component {
       const { num } = this.state;
       return (
         <div id="App">
-          <svg id="sky">
+          <svg id="sky" className="u-z-n1">
             {[...Array(num)].map((x, y) => (
               <circle
                 cx={this.getRandomX()}

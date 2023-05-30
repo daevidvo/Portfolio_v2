@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "./navbar";
 import Home from "./pages/home";
-// import projects from './pages/projects'
+import Projects from './pages/projects'
 // import resume from './pages/resume'
 // import contact from './pages/contact'
 
@@ -12,22 +12,10 @@ function PageContainer() {
     if (currentPage === 'home') {
         return <Home setCurrentPage={setCurrentPage}/>
     }
-    // switch (currentPage) {
-    //     case 'home':
-    //         return <home />
-    //         break;
-    //     case 'projects':
-    //         return <projects />
-    //         break;
-    //     case 'resume':
-    //         return <resume />
-    //         break;
-    //     case 'contact':
-    //         return <contact />
-    //         break;
-    //     default:
-    //         break;
-    // }
+    if (currentPage === 'projects') {
+        return <Projects />
+    }
+    
   }
 
   return (

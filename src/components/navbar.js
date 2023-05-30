@@ -16,21 +16,21 @@ function NavBar({ currentPage, setCurrentPage }) {
       <div className="header-nav" id="header-menu">
         <div className="nav-left">
           <div className="nav-item text-center">
-            <a href="https://www.github.com/daevidvo" target="_blank">
+            <a href="https://www.github.com/daevidvo" target="_blank" rel="noreferrer">
               <span className="icon">
                 <i className="fa fa-wrapper fa-github" aria-hidden="true"></i>
               </span>
             </a>
           </div>
           <div className="nav-item text-center">
-            <a href="https://www.linkedin.com/in/daevidvo" target="_blank">
+            <a href="https://www.linkedin.com/in/daevidvo" target="_blank" rel="noreferrer">
               <span className="icon">
                 <i className="fa fa-wrapper fa-linkedin" aria-hidden="true"></i>
               </span>
             </a>
           </div>
           <div className="nav-item text-center">
-            <a href="https://www.instagram.com/daevidvo" target="_blank">
+            <a href="https://www.instagram.com/daevidvo" target="_blank" rel="noreferrer">
               <span className="icon">
                 <i className="fa fa-wrapper fa-instagram" aria-hidden="true"></i>
               </span>
@@ -60,7 +60,7 @@ function NavBar({ currentPage, setCurrentPage }) {
               currentPage === "resume" ? "nav-item active" : "nav-item"
             }
           >
-            <a href="#resume" onClick={() => setCurrentPage("resume")}>
+            <a href="https://drive.google.com/file/d/13TvQHxZVo2Uev9EBb71aE2cgE_WR5ycv/view?usp=sharing" target="_blank" rel="noreferrer">
               Resume
             </a>
           </div>

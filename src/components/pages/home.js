@@ -1,4 +1,5 @@
 import React from "react";
+import me_and_grandma from '../../images/me_and_grandma.jpg'
 
 export default function Home({ setCurrentPage }) {
   return (
@@ -14,7 +15,7 @@ export default function Home({ setCurrentPage }) {
               <div>
                 <figure className="avatar avatar--xl">
                   <img
-                    src="./assets/images/me_and_grandma.jpg"
+                    src={me_and_grandma}
                     alt="me and grandma"
                   />
                 </figure>
@@ -30,6 +31,7 @@ export default function Home({ setCurrentPage }) {
                   className="col"
                   href="https://www.github.com/daevidvo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i
                     className="fa fa-2x fa-wrapper fa-github link-btn"
@@ -40,6 +42,7 @@ export default function Home({ setCurrentPage }) {
                   className="col"
                   href="https://www.instagram.com/daevidvo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i
                     className="fa fa-2x fa-wrapper fa-instagram link-btn"
@@ -50,6 +53,7 @@ export default function Home({ setCurrentPage }) {
                   className="col"
                   href="https://www.linkedin.com/in/daevidvo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i
                     className="fa fa-2x fa-wrapper fa-linkedin link-btn"

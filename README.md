@@ -41,7 +41,7 @@ If you'd like to learn more about me, checkout my socials linked in the author i
 
 ## Usage Information ✅
 
-usage
+To use the webpage, visit [the deployed site](https://daevidvo.github.io/Portfolio_v2/) and click on the navigation buttons up top. If you'd like to see my socials, click on the social media icons.
 
 ------------------------
 

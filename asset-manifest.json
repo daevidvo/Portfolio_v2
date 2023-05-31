@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio_v2/static/css/main.34a90652.css",
+    "main.js": "/Portfolio_v2/static/js/main.ae806aa2.js",
+    "static/media/cheerio_example.gif": "/Portfolio_v2/static/media/cheerio_example.3fc1b99111024ccda2b9.gif",
+    "static/media/gymder_example.gif": "/Portfolio_v2/static/media/gymder_example.915c19a3b4d264571c24.gif",
+    "static/media/planner.gif": "/Portfolio_v2/static/media/planner.ad5bf4d9b45d36fbd661.gif",
+    "static/media/tensorflow_example.gif": "/Portfolio_v2/static/media/tensorflow_example.cef440524495fe93c53b.gif",
+    "static/media/scissors_survivor_example.gif": "/Portfolio_v2/static/media/scissors_survivor_example.f5f96eea4241d6310469.gif",
+    "static/media/me_and_grandma.jpg": "/Portfolio_v2/static/media/me_and_grandma.cf0a49e59af5cea2f588.jpg",
+    "static/media/elitefour_db.gif": "/Portfolio_v2/static/media/elitefour_db.a6558e2870eabd8bec97.gif",
+    "index.html": "/Portfolio_v2/index.html",
+    "main.34a90652.css.map": "/Portfolio_v2/static/css/main.34a90652.css.map",
+    "main.ae806aa2.js.map": "/Portfolio_v2/static/js/main.ae806aa2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34a90652.css",
+    "static/js/main.ae806aa2.js"
+  ]
+}

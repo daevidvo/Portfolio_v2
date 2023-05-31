@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <div style={{transform: `translateY(30vh)`}}>
       <footer className="footer p-2">
         <h6 className="footer__title white uppercase">Socials</h6>
         <div className="content">

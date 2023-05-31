@@ -1,7 +1,24 @@
 import React from "react";
-import me_and_grandma from '../../images/me_and_grandma.jpg'
+import me_and_grandma from "../../images/me_and_grandma.jpg";
+import anime from "animejs";
 
 export default function Home({ setCurrentPage }) {
+  anime({
+    targets: "#aboutMeCard",
+    scale: [0.9, 1],
+    easing: "easeInOutQuad",
+    opacity: [0, 1],
+    duration: 1000,
+  });
+  anime({
+    targets: "#projectsButton",
+    scale: [0.9, 1],
+    easing: "easeInOutQuad",
+    opacity: [0, 1],
+    duration: 500,
+    delay: 1000,
+  });
+
   return (
     <div>
       <div
@@ -14,10 +31,7 @@ export default function Home({ setCurrentPage }) {
             <div className="frame__header u-text-center">
               <div>
                 <figure className="avatar avatar--xl">
-                  <img
-                    src={me_and_grandma}
-                    alt="me and grandma"
-                  />
+                  <img src={me_and_grandma} alt="me and grandma" />
                 </figure>
               </div>
               <div>

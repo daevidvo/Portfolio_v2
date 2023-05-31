@@ -7,11 +7,13 @@ function NavBar({ currentPage, setCurrentPage }) {
         <div className="nav-item no-hover">
           <h6 className="title">David Vo &#128122;</h6>
         </div>
-        <div className="nav-item nav-btn" id="header-btn">
+        <a href="#mobilemodal" style={{cursor: `pointer`, display: `block`, position: `relative`, marginLeft: `auto`}}>
+        <div className="nav-item nav-btn header-btn">
           <span></span>
           <span></span>
           <span></span>
         </div>
+        </a>
       </div>
       <div className="header-nav" id="header-menu">
         <div className="nav-left">

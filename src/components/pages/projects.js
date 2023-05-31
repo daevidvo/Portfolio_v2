@@ -1,11 +1,25 @@
 import React from "react";
+import anime from "animejs";
 import cheerio_example from "../../images/cheerio_example.gif";
 import gymder_example from "../../images/gymder_example.gif";
+import scissors_survivor from "../../images/scissors_survivor_example.gif";
+import tesorflow_example from "../../images/tensorflow_example.gif";
+import planner from "../../images/planner.gif";
+import elitefour from "../../images/elitefour_db.gif";
 
 export default function Projects() {
+  anime({
+    targets: ".projectCards",
+    scale: [0.9, 1],
+    easing: "easeInOutQuad",
+    opacity: [0, 1],
+    duration: 1000,
+    delay: anime.stagger(1000),
+  });
+
   return (
     <div>
-      <div className="row u-justify-center mx-3" style={{ marginTop: `80px` }}>
+      <div className="row u-justify-center p-0" style={{ marginTop: `80px` }}>
         <div className="u-flex-xl u-block-lg u-gap-3">
           <div className="projectCards">
             <div className="card card--slide-up" style={{ width: `450px` }}>
@@ -101,7 +115,7 @@ export default function Projects() {
                 <div
                   className="card__image"
                   style={{
-                    backgroundImage: `url("https://unsplash.it/640/480?random&amp;blur"`,
+                    backgroundImage: `url("${scissors_survivor}"`,
                   }}
                 ></div>
               </div>
@@ -109,31 +123,30 @@ export default function Projects() {
                 <div className="content mx-3">
                   <div className="tile">
                     <div className="tile__container">
-                      <p className="tile__title">TBD</p>
+                      <p className="tile__title">Scissors Survivor</p>
                       <p className="tile__subtitle">By David Vo</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card__body content mx-3">
-                <p>To be written</p>
+                <p>Multistage game where you need to outrun a ROCK</p>
               </div>
               <div className="card__action-bar u-center">
-                <a href="?">
-                  <button className="btn-link outline">repo</button>
-                </a>
-                <a href="?">
-                  <button className="btn-link outline">site</button>
+                <a
+                  href="https://github.com/daevidvo/Scissors-Survivors"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-link outline">Github Repo</button>
                 </a>
               </div>
-              <div className="card__footer content mx-3">
-                Sometime, Some Year
-              </div>
+              <div className="card__footer content mx-3">February 2023</div>
             </div>
           </div>
         </div>
       </div>
-      <div className="row u-justify-center mx-3" style={{ marginTop: `80px` }}>
+      <div className="row u-justify-center p-0">
         <div className="u-flex-xl u-block-lg u-gap-3">
           <div className="projectCards">
             <div className="card card--slide-up" style={{ width: `450px` }}>
@@ -141,7 +154,7 @@ export default function Projects() {
                 <div
                   className="card__image"
                   style={{
-                    backgroundImage: `url("https://unsplash.it/640/480?random&amp;blur"`,
+                    backgroundImage: `url("${tesorflow_example}"`,
                   }}
                 ></div>
               </div>
@@ -149,26 +162,27 @@ export default function Projects() {
                 <div className="content mx-3">
                   <div className="tile">
                     <div className="tile__container">
-                      <p className="tile__title">TBD</p>
+                      <p className="tile__title">
+                        Fashion MNIST Neural Network
+                      </p>
                       <p className="tile__subtitle">By David Vo</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card__body content mx-3">
-                <p>To be written</p>
+                <p>A basic neural network trained to identify clothes</p>
               </div>
               <div className="card__action-bar u-center">
-                <a href="?">
-                  <button className="btn-link outline">repo</button>
-                </a>
-                <a href="?">
-                  <button className="btn-link outline">site</button>
+                <a
+                  href="https://github.com/daevidvo/tensorflow_miniproject1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-link outline">Github Repo</button>
                 </a>
               </div>
-              <div className="card__footer content mx-3">
-                Sometime, Some Year
-              </div>
+              <div className="card__footer content mx-3">April 2023</div>
             </div>
           </div>
           <div className="projectCards">
@@ -177,7 +191,7 @@ export default function Projects() {
                 <div
                   className="card__image"
                   style={{
-                    backgroundImage: `url("https://unsplash.it/640/480?random&amp;blur"`,
+                    backgroundImage: `url("${planner}"`,
                   }}
                 ></div>
               </div>
@@ -185,26 +199,25 @@ export default function Projects() {
                 <div className="content mx-3">
                   <div className="tile">
                     <div className="tile__container">
-                      <p className="tile__title">TBD</p>
+                      <p className="tile__title">Work Day Scheduler</p>
                       <p className="tile__subtitle">By David Vo</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card__body content mx-3">
-                <p>To be written</p>
+                <p>Simple app that lets you plan your 9-5 day</p>
               </div>
               <div className="card__action-bar u-center">
-                <a href="?">
-                  <button className="btn-link outline">repo</button>
-                </a>
-                <a href="?">
-                  <button className="btn-link outline">site</button>
+                <a
+                  href="https://github.com/daevidvo/Daily_Schedule_Planner"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-link outline">Github Repo</button>
                 </a>
               </div>
-              <div className="card__footer content mx-3">
-                Sometime, Some Year
-              </div>
+              <div className="card__footer content mx-3">April 2023</div>
             </div>
           </div>
           <div className="projectCards">
@@ -213,7 +226,7 @@ export default function Projects() {
                 <div
                   className="card__image"
                   style={{
-                    backgroundImage: `url("https://unsplash.it/640/480?random&amp;blur"`,
+                    backgroundImage: `url("${elitefour}"`,
                   }}
                 ></div>
               </div>
@@ -221,25 +234,26 @@ export default function Projects() {
                 <div className="content mx-3">
                   <div className="tile">
                     <div className="tile__container">
-                      <p className="tile__title">TBD</p>
+                      <p className="tile__title">Pokemon Elite Four Database</p>
                       <p className="tile__subtitle">By David Vo</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card__body content mx-3">
-                <p>To be written</p>
+                <p>A database of Elite Four trainers using MySQL</p>
               </div>
               <div className="card__action-bar u-center">
-                <a href="?">
-                  <button className="btn-link outline">repo</button>
-                </a>
-                <a href="?">
-                  <button className="btn-link outline">site</button>
+                <a
+                  href="https://github.com/daevidvo/Pokemon-Elite-Four-Tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-link outline">Github Repo</button>
                 </a>
               </div>
               <div className="card__footer content mx-3">
-                Sometime, Some Year
+                April 2023
               </div>
             </div>
           </div>

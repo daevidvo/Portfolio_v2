@@ -36,7 +36,7 @@ body {
 }
 
 .footer {
-  position: absolute;
-  top: 100vh;
+  position: relative;
+  bottom: 0vh;
   background-color: white;
 }

@@ -30,7 +30,7 @@ export default function Contact() {
           <form
             className="frame p-0"
             method="post"
-            action="mailto:daevidvo@gmail.com"
+            action="https://mailto:daevidvo@gmail.com"
             encType="text/plain"
           >
             <div className="frame__body p-0">

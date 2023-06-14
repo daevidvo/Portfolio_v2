@@ -6,6 +6,7 @@ import scissors_survivor from "../../images/scissors_survivor_example.gif";
 import tesorflow_example from "../../images/tensorflow_example.gif";
 import planner from "../../images/planner.gif";
 import elitefour from "../../images/elitefour_db.gif";
+import gourmet_gauntlet from '../../images/gourmet_gauntlet.gif'
 
 export default function Projects() {
   anime({
@@ -115,7 +116,7 @@ export default function Projects() {
                 <div
                   className="card__image"
                   style={{
-                    backgroundImage: `url("${scissors_survivor}"`,
+                    backgroundImage: `url("${gourmet_gauntlet}"`,
                   }}
                 ></div>
               </div>
@@ -123,14 +124,14 @@ export default function Projects() {
                 <div className="content mx-3">
                   <div className="tile">
                     <div className="tile__container">
-                      <p className="tile__title">Scissors Survivor</p>
-                      <p className="tile__subtitle">By David Vo</p>
+                      <p className="tile__title">Gourmet Gauntlet</p>
+                      <p className="tile__subtitle">By David Vo, David Chung, Bryan Nguyen, Jedd Javier</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="card__body content mx-3">
-                <p>Multistage game where you need to outrun a ROCK</p>
+                <p>A fiery multistage autobattler card game using React.</p>
               </div>
               <div className="card__action-bar u-center">
                 <a
@@ -139,9 +140,16 @@ export default function Projects() {
                   rel="noreferrer"
                 >
                   <button className="btn-link outline">Github Repo</button>
+                </a> 
+                <a
+                  href="https://gourmet-gauntlet.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn-link outline">Deployed Site</button>
                 </a>
               </div>
-              <div className="card__footer content mx-3">February 2023</div>
+              <div className="card__footer content mx-3">June 2023</div>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_v2/static/css/main.34a90652.css",
-    "main.js": "/Portfolio_v2/static/js/main.9b1c55ec.js",
+    "main.js": "/Portfolio_v2/static/js/main.17c83b2c.js",
     "static/media/cheerio_example.gif": "/Portfolio_v2/static/media/cheerio_example.3fc1b99111024ccda2b9.gif",
     "static/media/gourmet_gauntlet.gif": "/Portfolio_v2/static/media/gourmet_gauntlet.7afad218cc0683ee6250.gif",
     "static/media/gymder_example.gif": "/Portfolio_v2/static/media/gymder_example.915c19a3b4d264571c24.gif",
@@ -12,10 +12,10 @@
     "static/media/elitefour_db.gif": "/Portfolio_v2/static/media/elitefour_db.a6558e2870eabd8bec97.gif",
     "index.html": "/Portfolio_v2/index.html",
     "main.34a90652.css.map": "/Portfolio_v2/static/css/main.34a90652.css.map",
-    "main.9b1c55ec.js.map": "/Portfolio_v2/static/js/main.9b1c55ec.js.map"
+    "main.17c83b2c.js.map": "/Portfolio_v2/static/js/main.17c83b2c.js.map"
   },
   "entrypoints": [
     "static/css/main.34a90652.css",
-    "static/js/main.9b1c55ec.js"
+    "static/js/main.17c83b2c.js"
   ]
 }

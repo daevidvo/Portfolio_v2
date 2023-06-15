@@ -135,7 +135,7 @@ export default function Projects() {
               </div>
               <div className="card__action-bar u-center">
                 <a
-                  href="https://github.com/daevidvo/Scissors-Survivors"
+                  href="https://github.com/daevidvo/Gourmet-Gauntlet"
                   target="_blank"
                   rel="noreferrer"
                 >

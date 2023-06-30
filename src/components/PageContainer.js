@@ -3,7 +3,6 @@ import NavBar from "./pages/navbar";
 import Home from "./pages/home";
 import Projects from './pages/projects'
 import Contact from './pages/contact'
-import Footer from "./pages/footer";
 import MobileModal from "./pages/mobilemodal";
 
 function PageContainer() {
@@ -19,7 +18,6 @@ function PageContainer() {
     <div>
       <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
-      <Footer />
       <MobileModal setCurrentPage={setCurrentPage} />
     </div>
   );

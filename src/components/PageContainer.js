@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import NavBar from "./pages/navbar";
-import Home from "./pages/home";
-import Projects from './pages/projects'
-import Contact from './pages/contact'
-import MobileModal from "./pages/mobilemodal";
+import NavBar from "./pages/Navbar";
+import Home from "./pages/Home";
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+import MobileModal from "./pages/Mobilemodal";
+import ParticlesRenderer from "./utils/ParticlesRenderer";
 
 function PageContainer() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -17,6 +18,7 @@ function PageContainer() {
   return (
     <div>
       <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <ParticlesRenderer />
       {renderPage()}
       <MobileModal setCurrentPage={setCurrentPage} />
     </div>

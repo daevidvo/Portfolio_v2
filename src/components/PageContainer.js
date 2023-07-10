@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 import MobileModal from "./pages/Mobilemodal";
-import ParticlesRenderer from "./utils/ParticlesRenderer";
 
 function PageContainer() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -16,9 +15,8 @@ function PageContainer() {
   }
 
   return (
-    <div>
+    <div style={{position: `relative`}}>
       <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <ParticlesRenderer />
       {renderPage()}
       <MobileModal setCurrentPage={setCurrentPage} />
     </div>

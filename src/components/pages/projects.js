@@ -2,7 +2,6 @@ import React from "react";
 import anime from "animejs";
 import cheerio_example from "../../images/cheerio_example.gif";
 import gymder_example from "../../images/gymder_example.gif";
-import scissors_survivor from "../../images/scissors_survivor_example.gif";
 import tesorflow_example from "../../images/tensorflow_example.gif";
 import planner from "../../images/planner.gif";
 import elitefour from "../../images/elitefour_db.gif";

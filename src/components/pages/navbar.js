@@ -62,7 +62,7 @@ function NavBar({ currentPage, setCurrentPage }) {
               currentPage === "resume" ? "nav-item active" : "nav-item"
             }
           >
-            <a href="https://drive.google.com/file/d/13TvQHxZVo2Uev9EBb71aE2cgE_WR5ycv/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1TU9_uLsx9ErBWPmgK0qqY-iMxZtSyw9k/view?usp=sharing" target="_blank" rel="noreferrer">
               Resume
             </a>
           </div>
